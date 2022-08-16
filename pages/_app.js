@@ -1,16 +1,15 @@
 import "../styles/globals.css";
-import { ThemeProvider } from "styled-components";
-import spruce from "react95/dist/themes/spruce";
+import { ThemesProvider } from "../context/ThemeContext";
 import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <ThemeProvider theme={spruce}>
+      <ThemesProvider>
         <Layout>
           <Component {...pageProps} />
         </Layout>
-      </ThemeProvider>
+      </ThemesProvider>
     </>
   );
 }
