@@ -10,7 +10,6 @@ import {
 
 const ThemeContext = createContext();
 const themes = [spruce, tokyoDark, matrix, blackAndWhite, redWine];
-console.log(themes[0]);
 
 const ThemesProvider = ({ children }) => {
   const [selectedTheme, setSelectedTheme] = useState(spruce);

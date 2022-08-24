@@ -32,7 +32,7 @@ export default function Appearance() {
           defaultValue={option}
           options={options}
           menuMaxHeight={160}
-          width={320}
+          width={200}
           onChange={handleChange}
         />
         <Button

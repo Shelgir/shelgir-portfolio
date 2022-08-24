@@ -16,9 +16,14 @@ export default function Navbar() {
       <Button variant="menu" size="sm">
         Help
       </Button>
+      <Link href="/game">
+        <Button variant="menu" size="sm">
+          Game 🎮
+        </Button>
+      </Link>
       <Link href="/appearance">
         <Button variant="menu" size="sm">
-          Appearance
+          Appearance 🎨
         </Button>
       </Link>
     </Toolbar>

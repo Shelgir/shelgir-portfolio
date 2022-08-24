@@ -9,8 +9,8 @@ export default function Layout({ children }) {
     <Window className="w-full min-h-screen flex flex-col">
       <WindowHeader className="window-header mb-1 flex justify-between">
         <span>Shelgir.exe</span>
-        <Button>
-          <span className="close-icon">
+        <Button disabled>
+          <span className="close-icon ">
             <GrFormClose />
           </span>
         </Button>
