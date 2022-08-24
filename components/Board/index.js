@@ -215,7 +215,7 @@ class Board extends React.Component {
   renderBoard() {
     const grid = this.state.grid;
 
-    return grid.map((row) => {
+    return grid.map((row, idx) => {
       const rowCells = row.map((gridCell) => (
         <Cell
           key={gridCell.y * row.length + gridCell.x}
@@ -225,7 +225,11 @@ class Board extends React.Component {
         />
       ));
 
-      return <div className="row">{rowCells}</div>;
+      return (
+        <div className="row" key={idx}>
+          {rowCells}
+        </div>
+      );
     });
   }
 
