@@ -1,5 +1,6 @@
 import React from "react";
 import { Fieldset, Cutout, Anchor, Divider } from "react95";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,7 +24,12 @@ export default function Home() {
             you and eventually leads you towards a successful tech career.
           </p>
           <Cutout>
-            <img src="/images/Shelgir Raouf_Iraq_2022.jpeg" className="h-44" />
+            <Image
+              src="/images/Shelgir Raouf_Iraq_2022.jpeg"
+              alt="Picture of the author"
+              width={320}
+              height={180}
+            />
           </Cutout>
         </div>
       </Fieldset>
