@@ -4,8 +4,8 @@ import { Fieldset, Anchor, Divider } from "react95";
 export default function education() {
   return (
     <Fieldset label="Education" className="flex flex-col gap-10 py-10">
-      <div className="flex justify-start items-center gap-5">
-        <div className="w-1/2 flex flex-col">
+      <div className="flex flex-col md:flex-row justify-start items-center gap-5">
+        <div className="md:w-1/2 flex flex-col">
           <h1 className="font-bold">
             Data Science Traineeship -{" "}
             <Anchor target="noopener" href="https://ovanya.com/">
@@ -59,8 +59,8 @@ export default function education() {
         </div>
       </div>
       <Divider />
-      <div className="flex justify-start items-center gap-5">
-        <div className="w-1/2 flex flex-col">
+      <div className="flex flex-col md:flex-row justify-start items-center gap-5">
+        <div className="md:w-1/2 flex flex-col">
           <h1 className="font-bold">
             B.Sc. Information Technology -{" "}
             <Anchor target="noopener" href="https://auis.edu.krd/">
@@ -86,8 +86,8 @@ export default function education() {
         <div></div>
       </div>
       <Divider />
-      <div className="flex justify-start items-center gap-5">
-        <div className="w-1/2 flex flex-col">
+      <div className="flex flex-col md:flex-row justify-start items-center gap-5">
+        <div className="md:w-1/2 flex flex-col">
           <h1 className="font-bold">
             UX/UI Design Bootcamp -{" "}
             <Anchor target="noopener" href="https://www.re-coded.com/">
@@ -120,8 +120,8 @@ export default function education() {
         <div></div>
       </div>
       <Divider />
-      <div className="flex justify-start items-center gap-5">
-        <div className="w-1/2 flex flex-col">
+      <div className="flex flex-col md:flex-row justify-start items-center gap-5">
+        <div className="md:w-1/2 flex flex-col">
           <h1 className="font-bold">
             Full-Stack Development Bootcamp -{" "}
             <Anchor target="noopener" href="https://bootcamp.bit.potan.co/">

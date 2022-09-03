@@ -3,7 +3,7 @@ import { Fieldset, Anchor, Button } from "react95";
 
 export default function projects() {
   return (
-    <div className="grid grid-cols-2 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       <Fieldset className="flec flex-col ">
         <h1 className="font-bold">Daroon</h1>
         <p>

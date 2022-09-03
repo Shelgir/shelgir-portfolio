@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Fieldset label="My Story">
-        <div className="flex justify-between items-center gap-5">
-          <p className="w-1/2">
+        <div className="flex flex-col md:flex-row fle justify-between md:items-center gap-5">
+          <p className="md:w-1/2">
             My name is Shelgir, Im a 24 years old web developer with the goal of
             making an impact in my field of work and those who want to join this
             field in the years to come. I joined the tech world while I was in
@@ -35,8 +35,8 @@ export default function Home() {
       </Fieldset>
       <div className="my-5"></div>
       <Fieldset label="Work Experiences" className="flex flex-col gap-10 py-10">
-        <div className="flex justify-start items-center gap-5">
-          <div className="w-1/2 flex flex-col">
+        <div className="flex flex-col md:flex-row justify-start md:items-center gap-5">
+          <div className="md:w-1/2 flex flex-col">
             <h1 className="font-bold">
               Full Stack Web Developer -{" "}
               <Anchor target="noopener" href="https://ovanya.com/">
@@ -76,8 +76,8 @@ export default function Home() {
           </div>
         </div>
         <Divider />
-        <div className="flex justify-start items-center gap-5">
-          <div className="w-1/2 flex flex-col">
+        <div className="flex flex-col md:flex-row justify-start md:items-center gap-5">
+          <div className="md:w-1/2 flex flex-col">
             <h1 className="font-bold">
               Software Developer -{" "}
               <Anchor target="noopener" href="https://kubak.co/">
@@ -123,8 +123,8 @@ export default function Home() {
           </div>
         </div>
         <Divider />
-        <div className="flex justify-start items-center gap-5">
-          <div className="w-1/2 flex flex-col">
+        <div className="flex flex-col md:flex-row justify-start md:items-center gap-5">
+          <div className="md:w-1/2 flex flex-col">
             <h1 className="font-bold">
               Art Director | Graphic Designer -{" "}
               <Anchor target="noopener" href="https://mazeee.com/">
