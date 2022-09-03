@@ -4,21 +4,20 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <Toolbar>
+    <Toolbar className="mb-5">
       <Link href="/">
         <Button variant="menu" size="sm">
           About Me
         </Button>
       </Link>
-      <Button variant="menu" size="sm">
-        Edit
-      </Button>
-      <Button variant="menu" size="sm">
-        Help
-      </Button>
-      <Link href="/game">
+      <Link href="/education">
         <Button variant="menu" size="sm">
-          Game 🎮
+          Education
+        </Button>
+      </Link>
+      <Link href="/projects">
+        <Button variant="menu" size="sm">
+          Projects
         </Button>
       </Link>
       <Link href="/appearance">

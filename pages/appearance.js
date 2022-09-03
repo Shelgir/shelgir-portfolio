@@ -13,7 +13,6 @@ export default function Appearance() {
   const [option, setOption] = useState(options[0]);
 
   const { selectedTheme, setSelectedTheme, themes } = useTheme();
-  console.log(themes);
 
   const handleChange = (e) => {
     setOption(e.target.value);
@@ -21,8 +20,9 @@ export default function Appearance() {
 
   const handleTheme = () => {
     const chosenTheme = themes.find((theme) => theme.name === option);
-    console.log(chosenTheme);
-    setSelectedTheme(chosenTheme);
+    if (chosenTheme) {
+      setSelectedTheme(chosenTheme);
+    }
   };
 
   return (
