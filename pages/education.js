@@ -17,7 +17,7 @@ export default function education() {
             <h1 className="font-bold">First Phase</h1>
             <li>• Git/Github</li>
             <li>
-              • The Python Programming Language And It's Essential Libraries For
+              • The Python Programming Language And Its Essential Libraries For
               Data Science (Numpy,Pandas And Matplotlib)
             </li>
             <li>• Brief Overview On Relational Databases</li>
@@ -39,9 +39,9 @@ export default function education() {
             During the second 4 weeks, participants were divided into different
             groups, each group was assigned a different project. although the
             trainees where guided through out the process, the trainees had to
-            undertake the whole project by themselves and learn the in's and
-            out's of data collection and model training. during the project
-            phase participants learned the following skills:
+            undertake the whole project by themselves and learn the ins and outs
+            of data collection and model training. during the project phase
+            participants learned the following skills:
           </p>
           <ul>
             <li> • Participants Learned How To Collect/Generate Data </li>

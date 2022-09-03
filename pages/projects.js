@@ -70,7 +70,7 @@ export default function projects() {
       <Fieldset className="flec flex-col">
         <h1 className="font-bold">Shelgir Blogs</h1>
         <p>
-          Shelgir's Blogs is a web application used like a journal of my life,
+          Shelgirs Blogs is a web application used like a journal of my life,
           posting the highlights of my career, education, and life in general
           the application has been build with Angular without a backend, the app
           uses Firebase SDK directlty, and the blogs are saved on the Firebase

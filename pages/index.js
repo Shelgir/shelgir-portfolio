@@ -8,20 +8,20 @@ export default function Home() {
       <Fieldset label="My Story">
         <div className="flex justify-between items-center gap-5">
           <p className="w-1/2">
-            My name is Shelgir, I'm a 24 years old web developer with the goal
-            of making an impact in my field of work and those who want to join
-            this field in the years to come. I joined the tech world while I was
-            in college starting with exploring the design tools at the time,
-            I've been working and learning ever since, I've never stopped
-            learning even after graduating, beacuse in the tech world what you
-            know now, may not be usable in a few years time. After working for
-            almost 2 years in the design field, I've started web development, I
-            won my first hackathon in late 2021 in a team of 4, and got my first
-            job after that instantly in the web development field, while working
-            as a developer I started researching Data Science and joined a 4
-            month Data Science Traineeship and since then that has been leading
-            me towards the next step in my career. I hope my story has inspired
-            you and eventually leads you towards a successful tech career.
+            My name is Shelgir, Im a 24 years old web developer with the goal of
+            making an impact in my field of work and those who want to join this
+            field in the years to come. I joined the tech world while I was in
+            college starting with exploring the design tools at the time, Ive
+            been working and learning ever since, Ive never stopped learning
+            even after graduating, beacuse in the tech world what you know now,
+            may not be usable in a few years time. After working for almost 2
+            years in the design field, Ive started web development, I won my
+            first hackathon in late 2021 in a team of 4, and got my first job
+            after that instantly in the web development field, while working as
+            a developer I started researching Data Science and joined a 4 month
+            Data Science Traineeship and since then that has been leading me
+            towards the next step in my career. I hope my story has inspired you
+            and eventually leads you towards a successful tech career.
           </p>
           <Cutout>
             <Image
