@@ -8,7 +8,7 @@ export default function education() {
         <div className="w-1/2 flex flex-col">
           <h1 className="font-bold">
             Data Science Traineeship -{" "}
-            <Anchor target="_blank" href="https://ovanya.com/">
+            <Anchor target="noopener" href="https://ovanya.com/">
               Ovanya
             </Anchor>
           </h1>
@@ -63,7 +63,7 @@ export default function education() {
         <div className="w-1/2 flex flex-col">
           <h1 className="font-bold">
             B.Sc. Information Technology -{" "}
-            <Anchor target="_blank" href="https://auis.edu.krd/">
+            <Anchor target="noopener" href="https://auis.edu.krd/">
               American University of Iraq - Sulaimani
             </Anchor>
           </h1>
@@ -90,7 +90,7 @@ export default function education() {
         <div className="w-1/2 flex flex-col">
           <h1 className="font-bold">
             UX/UI Design Bootcamp -{" "}
-            <Anchor target="_blank" href="https://www.re-coded.com/">
+            <Anchor target="noopener" href="https://www.re-coded.com/">
               Re:Coded
             </Anchor>
           </h1>
@@ -124,7 +124,7 @@ export default function education() {
         <div className="w-1/2 flex flex-col">
           <h1 className="font-bold">
             Full-Stack Development Bootcamp -{" "}
-            <Anchor target="_blank" href="https://bootcamp.bit.potan.co/">
+            <Anchor target="noopener" href="https://bootcamp.bit.potan.co/">
               Bit Bootcamp
             </Anchor>
           </h1>

@@ -33,13 +33,13 @@ export default function projects() {
         <div className="flex items-center gap-3 mt-5">
           <a
             href="https://github.com/aryankarim/chakika-capstone-frontend"
-            target="_blank"
+            target="noopener"
           >
             <Button>Front End</Button>
           </a>
           <a
             href="https://github.com/aryankarim/chakika-capstone-backend"
-            target="_blank"
+            target="noopener"
           >
             <Button>Back End</Button>
           </a>
@@ -56,13 +56,13 @@ export default function projects() {
           it contains users and managers, its ready to be used.
         </p>
         <div className="flex items-center gap-3 mt-5">
-          <a href="https://github.com/Shelgir/hrm-panel" target="_blank">
+          <a href="https://github.com/Shelgir/hrm-panel" target="noopener">
             <Button>Front End</Button>
           </a>
-          <a href="https://github.com/Shelgir/hrm" target="_blank">
+          <a href="https://github.com/Shelgir/hrm" target="noopener">
             <Button>Back End</Button>
           </a>
-          <a href="https://hrm-panel.netlify.app/" target="_blank">
+          <a href="https://hrm-panel.netlify.app/" target="noopener">
             <Button>Demo 💻</Button>
           </a>
         </div>
@@ -79,11 +79,11 @@ export default function projects() {
         <div className="flex items-center gap-3 mt-5">
           <a
             href="https://github.com/Shelgir/shelgir-personal-blog"
-            target="_blank"
+            target="noopener"
           >
             <Button>Front End</Button>
           </a>
-          <a href="https://shelgir.netlify.app/" target="_blank">
+          <a href="https://shelgir.netlify.app/" target="noopener">
             <Button>Demo 💻</Button>
           </a>
         </div>

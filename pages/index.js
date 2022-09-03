@@ -39,7 +39,7 @@ export default function Home() {
           <div className="w-1/2 flex flex-col">
             <h1 className="font-bold">
               Full Stack Web Developer -{" "}
-              <Anchor target="_blank" href="https://ovanya.com/">
+              <Anchor target="noopener" href="https://ovanya.com/">
                 Ovanya
               </Anchor>
             </h1>
@@ -80,7 +80,7 @@ export default function Home() {
           <div className="w-1/2 flex flex-col">
             <h1 className="font-bold">
               Software Developer -{" "}
-              <Anchor target="_blank" href="https://kubak.co/">
+              <Anchor target="noopener" href="https://kubak.co/">
                 Kubak
               </Anchor>
             </h1>
@@ -127,7 +127,7 @@ export default function Home() {
           <div className="w-1/2 flex flex-col">
             <h1 className="font-bold">
               Art Director | Graphic Designer -{" "}
-              <Anchor target="_blank" href="https://mazeee.com/">
+              <Anchor target="noopener" href="https://mazeee.com/">
                 Mazeee Creative Agency
               </Anchor>
             </h1>
